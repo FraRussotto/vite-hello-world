@@ -1,22 +1,19 @@
 <script>
+  import JumbotronVue from './components/Jumbotron.vue';
   import Title from './components/Title.vue';
   export default {
     name: 'App',
     components: {
-      Title
+      Title,
+      JumbotronVue
     },
-    data(){
-      return{
-        titolo: "La mia prima App con Vite",
-      }
-    }
   }
 
 </script>
 
 <template>
   <Title></Title>
-  <h1></h1>
+  <JumbotronVue></JumbotronVue>
 </template>
 
 
